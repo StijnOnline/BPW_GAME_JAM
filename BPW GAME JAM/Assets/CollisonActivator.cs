@@ -10,6 +10,10 @@ public class CollisonActivator : MonoBehaviour
         transform.parent.GetComponent<BoxCollider2D>().enabled = true;
     }
 
+    private void OnTriggerStay2D(Collider2D collision) {
+        transform.parent.GetComponent<BoxCollider2D>().enabled = true;
+    }
+
     private void OnTriggerExit2D(Collider2D collision) {
         transform.parent.GetComponent<BoxCollider2D>().enabled = false;
     }
