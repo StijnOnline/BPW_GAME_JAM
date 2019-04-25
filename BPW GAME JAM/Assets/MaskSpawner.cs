@@ -15,4 +15,6 @@ public class MaskSpawner : MonoBehaviour
         Instantiate(Mask, Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity, transform);
         
     }
+
+
 }

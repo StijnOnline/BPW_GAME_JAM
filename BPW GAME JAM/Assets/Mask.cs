@@ -20,4 +20,6 @@ public class Mask : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    
 }
